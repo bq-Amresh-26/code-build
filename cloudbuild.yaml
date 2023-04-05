@@ -1,9 +1,9 @@
 
-#Setup GCP Project
-steps:
-- name: 'gcr.io/task-project-374915/custom-builder-images/'
-#   args: ['gcloud', 'config', 'set', 'project', 'project-id']
-  id: Determine IP of this build worker
+# #Setup GCP Project
+# steps:
+# - name: 'gcr.io/task-project-374915/custom-builder-images/'
+# #   args: ['gcloud', 'config', 'set', 'project', 'project-id']
+#   id: Determine IP of this build worker
   
   
 # # This step Build the docker image
